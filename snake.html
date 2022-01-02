@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Don't get eaten!</title>
+  </head>
+  <body>
+    <div id="canvas"></div>
+    <p id="score">score: 0</p>
+  </body>
+  <style>
+    #canvas {
+      width: 300px;
+      height: 200px;
+      border: 5px solid black;
+      position: relative;
+      box-sizing: content-box;
+    }
+    #tile {
+      width: 10px;
+      height: 10px;
+      border: 1px solid black;
+      box-sizing: border-box;
+      position: absolute;
+    }
+  </style>
+  <script src="snakeGame.js"></script>
+</html>
